@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing import image
 
 import numpy as np
 classes = ["タマゴダケ","コタマゴテングダケ","テングダケ","ヤマドリダケ"]
-image_size = 50
+image_size = 100
 
 UPLOAD_FOLDER = "uploads"
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
